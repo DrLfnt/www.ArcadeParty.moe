@@ -1,0 +1,33 @@
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+}
+.full {
+	/* background: url(http://placehold.it/1920x1080) no-repeat center center fixed; */
+	background: url(../images/bg-desktop.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.contact {
+	color: #ff0164;
+}
+.btn-primary {
+	color: #fff;
+	background-color: #00a6ca;
+	border-color: #00a6ca;
+	margin-bottom: 15px;
+}
+.btn-primary:hover {
+	color: #fff;
+	background-color: #ff0164;
+	border-color: #ff0164;
+}
+
+@media (max-width: 768px) {
+	.full {
+		background: url(../images/bg-mobile.jpg) no-repeat center center fixed; 
+	}
+}
